@@ -4,3 +4,14 @@
     border: none;
 }
   
+body {
+    background-color:rgb(215, 215, 224);
+  }
+
+  .dropdown-toggle::after {
+    display: none; /* Aşağı ok yönündeki ikonu gizler */
+  }
+
+  .nav-link {
+    font-size: 15px; /* Örnek olarak 14 piksel olarak ayarlandı, istediğiniz boyuta göre değeri değiştirebilirsiniz */
+  }
