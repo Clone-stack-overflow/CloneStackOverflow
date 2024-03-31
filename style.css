@@ -13,5 +13,45 @@ body {
   }
 
   .nav-link {
-    font-size: 15px; /* Örnek olarak 14 piksel olarak ayarlandı, istediğiniz boyuta göre değeri değiştirebilirsiniz */
+    font-size: 13px; /* Örnek olarak 14 piksel olarak ayarlandı, istediğiniz boyuta göre değeri değiştirebilirsiniz */
   }
+
+  .dropdown-menu {
+    width: 250px; /* Örneğin 200 piksel genişliği */
+    height: 605px;
+  }
+
+  /* Dropdown menüsündeki liste öğelerini daha kalın yap */
+  .dropdown-menu .dropdown-item {
+    font-size: 12.8px;
+  }
+
+  /* Dropdown menüsünün alt kısmına emoji eklemek için örnek */
+  .dropdown-footer{
+    padding: 10px; /* Alt kısmın iç boşluğunu ayarla */
+    text-align: center; /* İçeriği ortala */
+    background-color: #f8f9fa; /* Arkaplan rengini ayarla */
+  }
+
+  /* Dropdown menüsü açıldığında sayfanın sol tarafına yaslanması */
+  .dropdown-menu.show {
+    margin-left: 10px;
+  }
+  .dropdown-toggle:focus {
+    outline: none;
+    border: none;
+  }
+.dropdown-menu {
+  border: none;
+  border-radius: 0;
+}
+.dropdown-menu li {
+  margin-bottom: 5px; /* Her öğenin altına 5 piksel boşluk bırakır */
+}
+
+.dropdown-item1{
+  font-size: 11px;
+
+}
+  
+  
