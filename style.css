@@ -17,7 +17,7 @@ body {
   }
 
   .dropdown-menu {
-    width: 250px; /* Örneğin 200 piksel genişliği */
+    width: 252px; /* Örneğin 200 piksel genişliği */
     height: 605px;
   }
 
@@ -51,7 +51,67 @@ body {
 
 .dropdown-item1{
   font-size: 11px;
+  margin-left: 15px; 
+  text-decoration: none;
 
 }
+.dropdown-item2{
+  display: flex;
+  font-size: 11px;
+  margin-left: 15px; 
+  margin-top: -6px;
+  color: rgb(92, 89, 89);
+}
+
+.dropdown-item0{
+  display: flex;
+  float: right;
+}
+.yazi{
+  display: flex;
+  font-size: 11px;
+  margin-left: 15px; 
+  text-decoration: none;
+  text-align:center;
+  margin-bottom: -5px;
+  color: rgb(92, 89, 89);
   
   
+}
+.yazi1{
+  display: flex;
+  font-size: 11px;
+  margin-left: 15px; 
+  text-decoration: none;
+  margin-top: -6px;
+  color: rgb(92, 89, 89);
+}
+
+.btn1{
+  font-size: 11px;
+  color: white;
+  border: none;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  border-radius: 5px;
+  text-decoration: none;
+  background-color: rgb(225, 119, 19);
+  width: 220px;
+  height: 28px;
+  margin-left: 15px;
+}
+.btn2{
+  font-size: 11px;
+  background-color: rgba(255, 255, 255, 0); 
+  color: rgb(92, 89, 89);
+  border: none;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  border-radius: 5px;
+  text-decoration: none;
+  width: 220px;
+  height: 28px;
+  margin-left: 15px;
+  }
