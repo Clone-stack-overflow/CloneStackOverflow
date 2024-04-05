@@ -89,13 +89,76 @@
             <button style="color: white; background-color: rgb(27,117,208); border: white; border-radius: 6px; width: 205px; height: 41px;" >Discover Teams</button>
           </div>
         </div>
+      </div>
+    <div class="bottom-oval">
+      <div class="text-container">
+
+        <ul>
+          <li> <h5>100+ million</h5></li>
+          <li> <p> monthly visitors to Stack Overflow & Stack Exchange </p> </li>
+        </ul>
+
+        <ul>
+          <li><h5>45.1+ billion</h5></li>
+          <li> <p>Times a developer got help since 2008</p> </li>
+        </ul>
+
+        <ul>
+          <li><h5>191% ROI</h5> </li>
+          <li> <p>from companies using Stack Overflow for Teams</p></li>
+        </ul>
+
+        <ul>
+          <li><h5>5,000+</h5></li>
+          <li><p>Stack Overflow for Teams instances active every day</p></li>
+        </ul>
+
+      </div>
     </div>
-    <div class="bottom-oval"></div>
 </div>
 
 
 
   <style>
+
+    .bottom-oval {
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.1); /* Oval rengi */
+    width: 400px; /* Oval genişliği */
+    height: 200px; /* Oval yüksekliği */
+    border-radius: 50%; /* Oval şeklini verir */
+    margin-top: -150px; /* Ovalın yukarıda görünmesini sağlar */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: justify;
+
+}
+.text-container ul li  {
+  color: white;
+  text-decoration: none;
+  list-style-type: none;
+}
+.text-container ul li  p {
+  font-size: 12.5px;
+  color: gray;
+}
+
+.text-container {
+    display: flex;
+    margin-top: -700px;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    width: 50%;
+    margin-left: 350px;
+
+}
+
+.text-container span {
+    font-size: 14px;
+    color: black;
+}
     .card {
     width: 400px;
     height: 230px;
