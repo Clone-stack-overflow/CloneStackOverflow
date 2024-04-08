@@ -1,12 +1,16 @@
-document.addEventListener("DOMContentLoaded", function() {
-    const textArray = ["Kelime 1", "Kelime 2", "Kelime 3", "Kelime 4", "Kelime 5"]; // Değiştirilecek kelimelerin dizisi
-    let currentIndex = 0;
-    const textElement = document.getElementById("changing-text");
-  
-    // Belirli bir aralıkta kelime değiştirme işlevi
-    setInterval(function() {
-      textElement.textContent = textArray[currentIndex];
-      currentIndex = (currentIndex + 1) % textArray.length;
-    }, 2000); // 2 saniye aralıklarla kelime değiştir
-  });
-  
+
+document.addEventListener('DOMContentLoaded', function () {
+  const firstParagraph = document.getElementById('firstParagraph');
+  const secondParagraph = document.getElementById('secondParagraph');
+  const words = ['developer', 'data scientist', 'system admin', 'mobile developer', 'game developer'];
+  let currentWordIndex = 0;
+
+  function changeWord() {
+      firstParagraph.innerHTML = `Every <span style="color: rgb(230,112,13)">${words[currentWordIndex]}</span> has a`;
+      secondParagraph.textContent = 'tab open to Stack Overflow';
+      currentWordIndex = (currentWordIndex + 1) % words.length;
+  }
+
+  changeWord(); // İlk kelimeleri değiştir
+  setInterval(changeWord, 2000); // Her 2 saniyede bir kelime değiştir
+});
