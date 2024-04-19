@@ -142,49 +142,6 @@ body {
     border: 1px solid #dad6d6; 
 }
 
-
-.bölüm2{
-  margin-top: 120px;
-    display: flex; 
-    margin-left: 159px;
-    width: 1200px ;
-    height: 1200px; /* İstenilen yüksekliği belirleyin */
-    background-color: white; /* Arka plan rengini belirleyin */
-    justify-content: center;
-    align-items: center; 
-    text-align: center; 
-    margin-bottom: 10px;
-    left: 60px;
-}
-
-.kartlar{
-  justify-content: center;
-  display: flex;
-  align-items: center;
-  text-align: center;
-}
-    
-.card1,
-.card2 {
-  position: absolute;
-  bottom: -550px;
-  width: 520px;
-  height: 790px;
-  border-radius: 8px;
- 
-}
-
-.card1 {
-  background-color:rgb(245,176,120);
-  left: 224px;
-}
-
-.card2 {
-  background-color: rgb(146,193,241);
-  right: 224px;
-}
-
-
     .your-text-container {
     position: absolute;
     top: 50%; /* İstenilen yere göre ayarlayabilirsiniz */
@@ -195,9 +152,6 @@ body {
     color: rgb(254, 252, 252); /* İstenilen renge göre ayarlayabilirsiniz */
 }
 
-    .bottom-oval {
-    display: flex;
-}
 
 .text-container ul li  {
   color: white;
@@ -210,7 +164,7 @@ body {
 }
 
 .text-container {
-    display: flex;
+  display: flex;
     margin-top: -700px;
     justify-content: space-between;
     align-items: center;
@@ -224,7 +178,7 @@ body {
     font-size: 14px;
     color: black;
 }
-    .card {
+.card {
     width: 400px;
     height: 230px;
     background-color: #ffffff;
@@ -240,10 +194,10 @@ body {
         background-color: #fbfbfb;
         position: relative;
         /* overflow: hidden; */
-    }
+      }
     .inner-div {
-        width: 100%;
-        height: 100%;
+      width: 100%;
+      height: 100%;
         background-color: rgb(13,15,16);
         border-radius: 20px 20px 0 0; /* Üst kenarları oval yapar */
         /* overflow: hidden; */
@@ -252,6 +206,7 @@ body {
     }
 
     .bottom-oval {
+        display: flex;
         width: 100%;
         height: 300px; /* Oval kısmın yüksekliği */
         border-radius: 50%; /* Oval yapar */
@@ -261,3 +216,48 @@ body {
         left: 0;
         right: 0;
     }
+
+    .kartlar{
+      justify-content: center;
+      display: flex;
+      align-items: center;
+      text-align: center;
+    }
+        
+    .card1,
+    .card2 {
+      padding: 60px;
+      position: absolute;
+      bottom: -550px;
+      width: 520px;
+      height: 790px;
+      border-radius: 8px;
+     
+    }
+    
+    .card1 {
+      background-color:rgb(245,176,120);
+      left: 224px;
+    }
+    
+    .card2 {
+      background-color: rgb(146,193,241);
+      right: 224px;
+    }
+    
+
+.bölüm2{
+ margin-top: 120px;
+ display: flex; 
+ margin-left: 159px;
+ width: 1200px ;
+ height: 1200px; /* İstenilen yüksekliği belirleyin */
+ background-color: white; /* Arka plan rengini belirleyin */
+ justify-content: center;
+ align-items: center; 
+ text-align: center; 
+ margin-bottom: 10px;
+ left: 60px;
+ }
+
+
