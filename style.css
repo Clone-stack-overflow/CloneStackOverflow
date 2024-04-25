@@ -260,4 +260,16 @@ body {
  left: 60px;
  }
 
+ .siyah{
+  width: 93.5%;
+  height: 2000px;
+  border-radius: 10px;
+  /* margin-top: 380px; */
+  margin-left: 50px;
+  background-color:rgb(17,18,20);
+  display: flex;
+  align-items: center;
+}
+
+
 
