@@ -14,3 +14,25 @@ document.addEventListener('DOMContentLoaded', function () {
   changeWord(); // İlk kelimeleri değiştir
   setInterval(changeWord, 2000); // Her 2 saniyede bir kelime değiştir
 });
+
+document.addEventListener("DOMContentLoaded", function () {
+  const elements = document.querySelectorAll(".anim-element");
+  let index = 0;
+
+  function showElement() {
+      elements[index].classList.add("active");
+      index++;
+      if (index < elements.length) {
+          setTimeout(showElement, 1000);
+      }
+  }
+
+  showElement();
+
+  window.onbeforeunload = function () {
+      index = 0;
+      elements.forEach((element) => {
+          element.classList.remove("active");
+      });
+  };
+});

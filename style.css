@@ -271,5 +271,17 @@ body {
   align-items: center;
 }
 
+.anim-element {
+  opacity: 0;
+  transition: opacity 1s ease;
+}
+
+.anim-element.active {
+  opacity: 1;
+}
+
+
+
+
 
 
