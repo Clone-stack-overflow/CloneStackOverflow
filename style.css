@@ -281,7 +281,31 @@ body {
 }
 
 
+.clickable-card {
+  cursor: pointer;
+  padding: 20px;
+  /* border: 1px solid #ccc; */
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
 
+.clickable-card:hover {
+  border: none;
+  background-color: rgb(59,64,69);
+}
 
+.clickable-card i {
+  font-size: 73px;
+  color: #007bff; /* Deniz mavisi */
+}
 
+.clickable-card .card-content {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-top: 10px;
+  transition: color 0.3s ease;
+}
 
+.clickable-card:hover .card-content {
+  color: white; /* Deniz mavisi */
+}
